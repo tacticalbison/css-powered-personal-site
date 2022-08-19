@@ -1,3 +1,43 @@
 body {
-  background-color: blue;
+  margin: 0;
+  width: 100vw;
+}
+
+.welcome {
+  align-items: center;
+  background-color: #092532;
+  color: #89c9b8;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.aboutme {
+  align-items: center;
+  background-color: #e1ffc2;
+  color: #092532;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.projects {
+  align-items: center;
+  background-color: #092532;
+  color: #89c9b8;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: xx-large;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
