@@ -48,7 +48,7 @@ body {
   left: 12.5%;
 }
 
-.about-me {
+.middle-container {
   align-items: center;
   background-color: #e1ffc2;
   color: #092532;
@@ -61,7 +61,7 @@ body {
   height: 100vh;
 }
 
-.projects {
+.bottom-container {
   align-items: center;
   background-color: #092532;
   color: #89c9b8;
