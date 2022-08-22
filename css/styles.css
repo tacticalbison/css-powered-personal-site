@@ -5,13 +5,9 @@ body {
 }
 
 .welcome {
-  /* align-items: center; */
   background-color: #092532;
-  color: #89c9b8;
-  /* display: flex; */
-  font-family: "Caveat", cursive;
-  /* flex-direction: column; */
-  /* justify-content: center; */
+  color: #66bfbf;
+  font-family: "Waiting for the Sunrise", cursive;
   height: 100vh;
   width: 100vw;
   position: relative;
@@ -23,8 +19,8 @@ body {
   margin: auto;
 }
 .welcome > p {
-  font-size: 2em;
-  margin-top: 5px;
+  font-size: 2.5rem;
+  margin-top: 0px;
 }
 
 .top-cloud {
@@ -35,7 +31,7 @@ body {
 
 .bottom-cloud {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 15%;
 }
 
@@ -59,6 +55,19 @@ body {
   /* height: 100vh; */
 }
 
+h2 {
+  color: #11999e;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
 .bottom-container {
   align-items: center;
   background-color: #092532;
@@ -69,5 +78,15 @@ body {
   font-size: xx-large;
   flex-direction: column;
   justify-content: center;
-  /* height: 100vh; */
+  height: 100vh;
+}
+
+.credits {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.contacts {
+  font-size: 1.75rem;
+  margin: 0;
 }

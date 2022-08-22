@@ -16,11 +16,11 @@ Created as part of <u>The Complete 2022 Web Development Bootcamp</u><br>_(Sectio
 
 **<u>Fonts:</u>** Font families are useful but when doing web design and a designer wants a specific typeset/font design, using the google fonts api is very useful to allow for a specific font to be utilized in the web design. I had previous experience with this concept but having additional exposure to this and actually watching Angela go through the process clued me into some interesting concepts. I noticed she set it up so that she only used the font weights she wanted (presumably to make download sizes even smaller) and that Google Fonts even offers a copy/paste for the code necessary to do the import correctly. Very useful. From an engineering standpoint, that's great because then I don't have to constantly remember HOW exactly to do this thing, but I can find the code and utilize it the way it needs to be done in my specific use case.
 
-**<u>Dynamic Font Sizing:</u>** When using dynamic font sizing, the values you use in an element are added to any dynamic sizes used in parents. For example, if a `<body>` had a default `font-size` of `2em` or even `200%`, and a child `<div>` had a `font-size` of `3em` or `300%`, the resulting font size would be `5em`/`500%`.
+**<u>Dynamic Font Sizing:</u>** When using dynamic font sizing, the values you use in an element are added to any dynamic sizes used in parents. For example, if a `<body>` has a default `font-size` of `2em` (equivalent to `200%`), and a child `<div>` has a `font-size` of `3em` (equivalent to `300%`), the resulting font size would be `5em`/`500%`.
 
 Using `rem` as a unit can circumvent this - as `rem` essentially tells the CSS styling to ignore all parent settings and change the font size relative to the root settings. This is the first time I've actually seen em and rem defined and their difference made obvious.
 
-Note: As far as font-size is concerned: `1em` === `100%` === `16px`
+Note: _As far as font-size is concerned: `1em` === `100%` === `16px`_
 
 ---
 
