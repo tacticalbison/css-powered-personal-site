@@ -42,10 +42,10 @@ body {
 }
 
 .mountain {
-  width: 75vw;
+  width: 50vw;
   position: absolute;
   bottom: 0%;
-  left: 12.5%;
+  left: 25%;
 }
 
 .middle-container {
@@ -58,7 +58,7 @@ body {
   font-size: xx-large;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .bottom-container {
@@ -71,5 +71,5 @@ body {
   font-size: xx-large;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
