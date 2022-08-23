@@ -146,10 +146,16 @@ h3 {
     "Lucida Sans", Arial, sans-serif;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 a {
+  color: #d4786a;
+  text-decoration: none;
+  padding: 0 1em 0 1em;
+  font-size: 1em;
+}
+a:hover {
   color: #ffb6aa;
 }
 
@@ -166,7 +172,8 @@ a {
 
 .contacts {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: 1.25rem;
-  margin: 0;
+  margin: 2em auto 2em auto;
+  pa
 }
