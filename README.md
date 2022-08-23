@@ -24,6 +24,6 @@ Note: _As far as font-size is concerned: `1em` === `100%` === `16px`_
 
 ---
 
-**<u>Personal notes</u>**:
+**<u>Personal notes</u>**: This was a fun exercise to create a personal site from just HTML and CSS and figure out how to make it dynamic for use on mobile devices. I believe I did a pretty nice job. The toughest part of the whole thing so far has been figuring out how to make the margins and the various parts of the site fit together in both browser view and mobile view.
 
----
+This exercise also helped me understand how to change the size of various elements in relationship to their parents and how that can be applied to a website. For example, the second container (light blue) is a full width container, but the children `<div>` elements all have various widths to make them more unique and in my eyes, appealing to read on both browser AND mobile.
