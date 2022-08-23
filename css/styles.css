@@ -102,13 +102,31 @@ h3 {
 }
 
 .btn {
-  text-align: center;
+  background: #022a35;
+  background-image: -webkit-linear-gradient(top, #022a35, #6b949f);
+  background-image: -moz-linear-gradient(top, #022a35, #6b949f);
+  background-image: -ms-linear-gradient(top, #022a35, #6b949f);
+  background-image: -o-linear-gradient(top, #022a35, #6b949f);
+  background-image: linear-gradient(to bottom, #022a35, #6b949f);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  color: #ffb6aa;
+  font-size: 1.25em;
+  font-weight: bold;
   margin-bottom: 2em;
 }
 
-.btn > a {
-  color: #553c00;
-  font-weight: bold;
+.btn:hover {
+  background: #550c00;
+  background-image: -webkit-linear-gradient(top, #550c00, #ffb6aa);
+  background-image: -moz-linear-gradient(top, #550c00, #ffb6aa);
+  background-image: -ms-linear-gradient(top, #550c00, #ffb6aa);
+  background-image: -o-linear-gradient(top, #550c00, #ffb6aa);
+  background-image: linear-gradient(to bottom, #550c00, #ffb6aa);
+  text-decoration: none;
+  color: #022a35;
 }
 
 .bottom-container {
